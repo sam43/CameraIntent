@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CameraIntent.iml" filepath="$PROJECT_DIR$/CameraIntent.iml" />
-      <module fileurl="file://E:\AndroidProjects\CameraIntent\CameraIntent.iml" filepath="E:\AndroidProjects\CameraIntent\CameraIntent.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
