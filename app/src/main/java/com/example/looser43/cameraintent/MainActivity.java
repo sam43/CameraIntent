@@ -39,7 +39,6 @@ public class MainActivity extends Activity {
         });
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.FROYO)
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -69,6 +68,7 @@ public class MainActivity extends Activity {
 
     // convert from image path
 
+    // commented by ami firoz after invitaion
 
     private String convertToBase64(String imagePath)
 
