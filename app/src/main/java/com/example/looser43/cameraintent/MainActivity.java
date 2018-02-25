@@ -69,6 +69,7 @@ public class MainActivity extends Activity {
     // convert from image path
 
     // commented by ami firoz after invitaion
+    //commentfm firoz branch the orginal one hehe
 
     private String convertToBase64(String imagePath)
 
