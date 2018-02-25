@@ -58,6 +58,10 @@ public class MainActivity extends Activity {
         }
     }
 
+    // Here sam43 goes with a change
+    // commit from branch sam43....
+    // checkout... from master now
+
     // convert from image path
 
     private String convertToBase64(String imagePath)
