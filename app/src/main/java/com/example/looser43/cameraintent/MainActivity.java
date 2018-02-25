@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Base64;
@@ -37,6 +39,7 @@ public class MainActivity extends Activity {
         });
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.FROYO)
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -62,7 +65,10 @@ public class MainActivity extends Activity {
     // commit from branch sam43....
     // checkout... from master now
 
+    // commit from master...
+
     // convert from image path
+
 
     private String convertToBase64(String imagePath)
 
